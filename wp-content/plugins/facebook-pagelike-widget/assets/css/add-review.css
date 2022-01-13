@@ -1,0 +1,80 @@
+.notice.fb-widget-notice {
+	border-left-color: #008ec2 !important;
+	padding: 20px;
+}
+.rtl .notice.fb-widget-notice {
+	border-right-color: #008ec2 !important;
+}
+.notice.notice.fb-widget-notice .fb-widget-notice-inner {
+	display: table;
+	width: 100%;
+}
+.notice.fb-widget-notice .fb-widget-notice-inner .fb-widget-notice-icon,
+.notice.fb-widget-notice .fb-widget-notice-inner .fb-widget-notice-content,
+.notice.fb-widget-notice .fb-widget-notice-inner .fb-widget-install-now {
+	display: table-cell;
+	vertical-align: middle;
+}
+.notice.fb-widget-notice .fb-widget-notice-icon {
+	color: #509ed2;
+	font-size: 50px;
+	width: 60px;
+}
+.notice.fb-widget-notice .fb-widget-notice-icon img {
+	width: 64px;
+}
+.notice.fb-widget-notice .fb-widget-notice-content {
+	padding: 0 40px 0 20px;
+}
+.notice.fb-widget-notice p {
+	padding: 0;
+	margin: 0;
+	max-width: 640px;
+}
+.notice.fb-widget-notice h3 {
+	margin: 0 0 5px;
+}
+.notice.fb-widget-notice .fb-widget-install-now {
+	text-align: center;
+}
+.notice.fb-widget-notice .fb-widget-install-now .fb-widget-install-button {
+	padding: 6px 50px;
+	height: auto;
+	line-height: 20px;
+}
+.notice.fb-widget-notice a.no-thanks {
+	display: block;
+	margin-top: 10px;
+	color: #72777c;
+	text-decoration: none;
+}
+.notice.fb-widget-notice a.no-thanks:hover {
+	color: #444;
+}
+@media (max-width: 767px) {
+	.notice.notice.fb-widget-notice .fb-widget-notice-inner {
+		display: block;
+	}
+	.notice.fb-widget-notice {
+		padding: 20px !important;
+	}
+	.notice.fb-widget-noticee .fb-widget-notice-inner {
+		display: block;
+	}
+	.notice.fb-widget-notice .fb-widget-notice-inner .fb-widget-notice-content {
+		display: block;
+		padding: 0;
+	}
+	.notice.fb-widget-notice .fb-widget-notice-inner .fb-widget-notice-icon {
+		display: none;
+	}
+	.notice.fb-widget-notice .fb-widget-notice-inner .fb-widget-install-now {
+		margin-top: 20px;
+		display: block;
+		text-align: left;
+	}
+	.notice.fb-widget-notice .fb-widget-notice-inner .no-thanks {
+		display: inline-block;
+		margin-left: 15px;
+	}
+}
